@@ -1,0 +1,29 @@
+# Python
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Model weights (if large)
+model/*.h5
+model/*.pkl
+model/*.pt
+model/*.pth
+
+# Dataset (if large)
+dataset/
+labels/
